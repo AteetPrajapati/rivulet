@@ -116,7 +116,6 @@ export default defineComponent({
           userId: this.user.id,
         })
         .then((res) => {
-          // this.ADD_USER_POSTS();
           this.loadingbtn = false;
           this.dialog = false;
           this.snackbar = true;
